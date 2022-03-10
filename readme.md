@@ -4,7 +4,7 @@
 
 A simple example is the following:
 ```
-docker run -it --rm -e "urls=https://www.youtube.com/watch?v=G1Ke-H8I1uk https://www.youtube.com/watch?v=h74mZp0SvyE" -v $(pwd)/d:/downloads chalmrah/ytdlp:1.1
+docker run -it --rm -e "urls=https://www.youtube.com/watch?v=G1Ke-H8I1uk https://www.youtube.com/watch?v=h74mZp0SvyE" -v $(pwd)/d:/downloads chalmrah/ytdlp:latest
 ```
 
 ## URLS
