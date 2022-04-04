@@ -36,5 +36,5 @@ jobs:
       - 
         uses: meeDamian/sync-readme@v1.0.6
         with:
-          pass: ${{ secrets.DOCKER_PASS }}
+          pass: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
           description: true
